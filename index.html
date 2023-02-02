@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Snake Game</title> 
+        <script src="./snake.js"></script>
+
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=VT323">
+        <link rel="stylesheet" href="./snake.css">
+    </head>
+
+    <body>
+        <div id="main-menu">
+            <button id="start-button">Start</button>
+        </div>
+
+        <div id="game">
+            <canvas id="game-board"></canvas>
+
+            <div id="score-panel">
+                <div>
+                    <span>Score:</span>
+                    <span id="score">0</span>
+                </div>
+                <div>
+                    <span>Highscore:</span>
+                    <span id="highscore">0</span>
+                </div>
+            </div>
+        </div>
+        
+        <div id="game-over-menu">
+            <span>Game Over</span>
+            <button id="game-over-button">Restart</button>
+        </div>
+
+    </body>
+</html>

@@ -1,0 +1,100 @@
+body {
+    background-color: rgb(45, 49, 66);
+
+    margin: 0;
+    padding: 0;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#main-menu {
+    background-image: url("./assets/menuImage.png");
+    background-color: rgb(73, 132, 103);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+
+    margin: auto;
+    
+    width: 100vw;
+    height: 100vh;
+}
+
+#main-menu button {
+  margin-bottom: 15vh;
+}
+
+#game {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    width: 100vw;
+    height: 100vh;
+}
+
+#game-board {
+    display: block;
+    width: 88vmin;
+    height: 88vmin;
+}
+
+#score-panel {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100vw;
+}
+
+#score-panel span {
+    font-family: "VT323";
+    font-weight: normal;
+    font-size: 7vmin;
+    color: rgb(165, 190, 0);;
+}
+
+#game-over-menu {
+    background-color: rgba(45, 49, 66, 0.5);
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    position: absolute;
+
+    padding: 10vmin;
+}
+
+#game-over-menu span {
+    font-family: "VT323";
+    font-weight: normal;
+    font-size: 10vh;
+    color: rgb(165, 190, 0);;
+}
+
+
+button {
+    font-family: "VT323";
+    color: rgb(45, 49, 66);
+    font-size: 10vh;
+    background-color: rgb(165, 190, 0);
+
+    padding: 20px;
+    margin: auto;
+
+    border: none;
+}
+button:hover {
+    background-color: hsl(68, 100%, 33%);
+}
+button:active {
+    background-color: hsl(68, 100%, 27%);
+}
+
+
